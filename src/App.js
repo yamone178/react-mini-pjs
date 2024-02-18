@@ -1,11 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import Accordion from './components/accordion/Accordion';
+
+// import Accordion from './components/accordion/Accordion';
+
+import ImageSlider from "./components/image-slider/ImageSlider";
 
 function App() {
   return (
     <div className="App">
-     <Accordion />
+     {/* <Accordion /> */}
+      <ImageSlider url={"https://picsum.photos/v2/list"} limit={10} page={4} />
     </div>
   );
 }
