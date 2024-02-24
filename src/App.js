@@ -1,7 +1,8 @@
 
 // import Accordion from './components/accordion/Accordion';
 
-import Test from "./components/search-Github-profile/Test";
+// import Test from "./components/search-Github-profile/Test";
+import Parent from "./components/useContext/Parent";
 
 // import LoadMore from "./components/Load_more_button/LoadMore";
 // import ImageSlider from "./components/image-slider/ImageSlider";
@@ -15,7 +16,9 @@ function App() {
       {/* <LoadMore /> */}
 
       {/* Search Github */}
-      <Test />
+      {/* <Test /> */}
+      
+      <Parent />
     </div>
   );
 }
