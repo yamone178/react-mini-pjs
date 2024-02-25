@@ -1,7 +1,8 @@
 
 // import Accordion from './components/accordion/Accordion';
 
-import Test from "./components/use-Fetch-customehook/Test";
+// import Test from "./components/use-Fetch-customehook/Test";
+import OutsideClick from "./components/use-outside-click/OutsideClick";
 
 // import Test from "./components/search-Github-profile/Test";
 // import Test from "./components/search-Github-profile/Test";
@@ -23,7 +24,9 @@ function App() {
       
       {/* <Parent /> */}
      
-      <Test />
+      {/* <Test /> */}
+
+      <OutsideClick />
     </div>
   );
 }
