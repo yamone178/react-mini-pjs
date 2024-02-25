@@ -3,6 +3,7 @@
 
 // import Test from "./components/use-Fetch-customehook/Test";
 import OutsideClick from "./components/use-outside-click/OutsideClick";
+import Weather from "./components/weather/Weather";
 
 // import Test from "./components/search-Github-profile/Test";
 // import Test from "./components/search-Github-profile/Test";
@@ -26,7 +27,9 @@ function App() {
      
       {/* <Test /> */}
 
-      <OutsideClick />
+      {/* <OutsideClick /> */}
+
+      <Weather />
     </div>
   );
 }
