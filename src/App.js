@@ -2,8 +2,13 @@
 // import Accordion from './components/accordion/Accordion';
 
 // import Test from "./components/use-Fetch-customehook/Test";
+
+import FoodReceipe from "./components/food-receipe/FoodReceipe";
+import Navbar from "./components/food-receipe/Navbar";
 import OutsideClick from "./components/use-outside-click/OutsideClick";
 import Weather from "./components/weather/Weather";
+
+
 
 // import Test from "./components/search-Github-profile/Test";
 // import Test from "./components/search-Github-profile/Test";
@@ -29,7 +34,12 @@ function App() {
 
       {/* <OutsideClick /> */}
 
-      <Weather />
+      {/* <Weather /> */}
+
+      {/* Food receipe */}
+      <FoodReceipe />
+
+      
     </div>
   );
 }
