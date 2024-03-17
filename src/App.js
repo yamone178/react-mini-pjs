@@ -5,6 +5,7 @@
 
 import FoodReceipe from "./components/food-receipe/FoodReceipe";
 import Navbar from "./components/food-receipe/Navbar";
+import ShoppingCart from "./components/shopping-cart/ShoppingCart";
 import OutsideClick from "./components/use-outside-click/OutsideClick";
 import Weather from "./components/weather/Weather";
 
@@ -37,7 +38,9 @@ function App() {
       {/* <Weather /> */}
 
       {/* Food receipe */}
-      <FoodReceipe />
+      {/* <FoodReceipe /> */}
+
+      <ShoppingCart />
 
       
     </div>

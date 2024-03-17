@@ -9,7 +9,7 @@ const Navbar = () => {
     
   return (
     <div className='flex justify-between'>
-        <h2 className=' text-[25px] font-bold text-black'>Food Receipe</h2>
+        <h2 className=' text-[25px] font-bold text-red-500 '>Food Receipe</h2>
 
         <SearchBox />
 
